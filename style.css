@@ -1,0 +1,36 @@
+body {
+  background-image: url('images/bg-image.jpg');
+}
+h1, h3{
+
+  font-size: 45px;
+  color: white;
+}
+header{
+  display:  flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputcontent{
+  height: 100px ;
+  width: 500px;
+  margin-top: 50px;
+}
+.inputcontent input {
+  padding: 15px;
+}
+.inputcontent button {
+  padding: 10px;
+  font-size: 20px;
+}
+ .weather-content {
+   height: 400px;
+   width: 50%;
+   margin: 0 auto;
+   /* border: 1px solid gray; */
+   display: flex;
+   justify-content: center;
+   /* align-items: flex-start; */
+ }
+
